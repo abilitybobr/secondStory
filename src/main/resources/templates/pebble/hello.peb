@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pebble Sample</title>
+    <style>
+
+        html, body {
+            height: 100%;
+        }
+        a {
+            display:inline-block;
+            font-size:12px;
+            text-decoration: none;
+            cursor:pointer;
+            color: #333;
+        }
+        button {
+            border: 0;
+            background: none;
+            cursor: pointer;
+        }
+        .pebWrap {
+            display: flex;
+            align-items:center;
+            background:#fff;
+            justify-content: center;
+            height:100vh;
+            min-height: 720px;
+        }
+        .errorContainer .pebCont {
+            text-align: center;
+        }
+        .pebCont p {
+            font-size:15px;
+            color:#666;
+            line-height:1.47;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="pebWrap">
+    <div class="pebContainer">
+        <i class="ico">
+        <div class="pebCont">
+            <h1>Pebble Sample 페이지에 오신것을 환영 합니다.</h1>
+            <p>
+                Pebble Template들을 서버 부팅시 Java Static을 이용하여 메모리에 올렸습니다.<br>
+                좀더 빠른 화면 로딩을 가능하게 합니다.<br>
+                <b>Pebble Template Engine 괜찮네여</b>
+            </p>
+            <div class="btnArea">
+                <button type="button" class="btn" onclick="location.href='{{ locationMove }}'">나만의공간 이동</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

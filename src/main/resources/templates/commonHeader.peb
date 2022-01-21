@@ -1,0 +1,10 @@
+<header class="header">
+    <div class="inner">
+        <div class="top-link float-r">
+            {{ sample1 }}
+            <br/>
+            {{ sample2 }}
+            <br/>
+        </div>
+    </div>
+</header>
